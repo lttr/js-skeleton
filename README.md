@@ -1,6 +1,6 @@
 # JavaScript skeleton
 
-A skeleton project for new JavaScript projects on GitHub. Mainly for open source npm packages, but can be adjusted for different purposes.
+A skeleton repository for new JavaScript projects on GitHub. Mainly for open source npm packages, but can be adjusted for different purposes.
 
 _Meta: This README itself can be used as a seed for new project's README._
 
@@ -43,11 +43,6 @@ TODO
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-The licence has been generated using this command:
-
-```
-npx mit-license --name 'Lukas Trumm' --output LICENCE.md
-```
 
 ## Acknowledgments
 
