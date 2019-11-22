@@ -1,1 +1,1 @@
-export { isArrayEmpty } from './isArrayEmpty.js'
+export { isArrayEmpty } from './isArrayEmpty'
