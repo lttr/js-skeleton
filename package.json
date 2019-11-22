@@ -1,8 +1,13 @@
 {
   "name": "js-skeleton",
   "version": "1.0.0",
-  "description": "A skeleton repository for new JavaScript projects on GitHub. Mainly for open source npm packages, but can be adjusted for different purposes.",
-  "keywords": [],
+  "description": "A skeleton repository for new JavaScript projects on GitHub",
+  "keywords": [
+    "skeleton",
+    "javascript",
+    "seed",
+    "starter"
+  ],
   "homepage": "https://github.com/lttr/js-skeleton#readme",
   "bugs": {
     "url": "https://github.com/lttr/js-skeleton/issues"
@@ -13,9 +18,12 @@
   },
   "license": "MIT",
   "author": "Lukas Trumm",
-  "main": "index.js",
+  "main": "src/index.js",
   "directories": {
     "doc": "docs"
+  },
+  "engines": {
+    "node": ">=10"
   },
   "scripts": {
     "build": "pika build",
@@ -35,7 +43,7 @@
     "@pika/plugin-build-node": "^0.7.1",
     "@pika/plugin-build-web": "^0.7.1",
     "@pika/plugin-standard-pkg": "^0.7.1",
-    "ava": "^2.4.0",
+    "ava": "*",
     "babel-plugin-istanbul": "^5.2.0",
     "cross-env": "^6.0.3",
     "eslint": "^6.6.0",
