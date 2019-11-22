@@ -28,7 +28,7 @@ Take advantage of built in scripts.
 The default purpose is publishing an open source npm package. You need to adjust
 for different purposes.
 
-## What is inside
+## Topics covered by this repository skeleton
 
 ### Project name and short description
 
@@ -41,11 +41,20 @@ From readme you should be able to quickly find out what is the project aiming
 for, what is the current status and how you can install, run or modify the
 project.
 
-### Formatting and linting
+### Formatting, linting and code style
 
 To reduce unnecessary discussions and improve uniformity of a code base it is
 great to have an automatic formatter. For JavaScript ecosystem this is
-`prettier`.
+`prettier`. Some really basic formatting rules for editors are set in
+`editorconfig` (prettier preserves them).
+
+For checking code style (but not formatting in this case), there is `eslint`.
+
+### Ignore
+
+### Dependencies
+
+They are
 
 ## Testing
 
