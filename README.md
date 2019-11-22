@@ -1,6 +1,7 @@
 # JavaScript skeleton
 
-A skeleton repository for new JavaScript projects on GitHub. Mainly for open source npm packages, but can be adjusted for different purposes.
+A skeleton repository for new JavaScript projects on GitHub. Mainly for open
+source npm packages, but can be adjusted for different purposes.
 
 _Meta: This README itself can be used as a seed for new project's README._
 
@@ -24,11 +25,27 @@ Replace all example values.
 
 Take advantage of built in scripts.
 
-The default purpose is publishing an open source npm package. You need to adjust for different purposes.
+The default purpose is publishing an open source npm package. You need to adjust
+for different purposes.
 
 ## What is inside
 
-* [README.md](./README.md)
+### Project name and short description
+
+Project name as well as a short description is reflected in repo name, in README
+and in package.json.
+
+### Readme
+
+From readme you should be able to quickly find out what is the project aiming
+for, what is the current status and how you can install, run or modify the
+project.
+
+### Formatting and linting
+
+To reduce unnecessary discussions and improve uniformity of a code base it is
+great to have an automatic formatter. For JavaScript ecosystem this is
+`prettier`.
 
 ## Testing
 
@@ -38,12 +55,11 @@ TODO
 
 TODO
 
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
+This project is licensed under the MIT License - see the
+[LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
 
-* [README Template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+- [README Template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
