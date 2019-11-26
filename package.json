@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "A skeleton repository for new JavaScript projects on GitHub",
   "keywords": [
-    "skeleton",
     "javascript",
     "seed",
+    "skeleton",
     "starter"
   ],
   "homepage": "https://github.com/lttr/js-skeleton#readme",
@@ -22,17 +22,14 @@
   "directories": {
     "doc": "docs"
   },
-  "engines": {
-    "node": ">=10"
-  },
   "scripts": {
     "build": "pika build",
     "format": "prettier --write '**/*.{ts,json,md,yml,js}'",
     "lint": "eslint src/ test/",
-    "test-coverage": "cross-env NODE_ENV=test nyc ava",
     "test": "ava",
-    "watch": "ava --watch",
-    "validate": "run-p -l lint test build"
+    "test-coverage": "cross-env NODE_ENV=test nyc ava",
+    "validate": "run-p -l lint test build",
+    "watch": "ava --watch"
   },
   "devDependencies": {
     "@babel/core": "^7.7.2",
@@ -56,6 +53,9 @@
     "nyc": "^14.1.1",
     "prettier": "^1.19.1",
     "prettier-plugin-packagejson": "^2.0.2"
+  },
+  "engines": {
+    "node": ">=10"
   },
   "@pika/pack": {
     "pipeline": [
