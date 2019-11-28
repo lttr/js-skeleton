@@ -25,7 +25,7 @@
   "scripts": {
     "build": "pika build",
     "format": "prettier --write '**/*.{ts,json,md,yml,js}'",
-    "lint": "eslint src/ test/",
+    "lint": "eslint src/ tests/",
     "test": "ava",
     "test-coverage": "cross-env NODE_ENV=test nyc ava",
     "validate": "run-p -l lint test build",
